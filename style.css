@@ -1,0 +1,41 @@
+.container {
+	padding-top: 50px;
+}
+
+#title {
+	font-size: 3em;
+}
+
+#stopwatch {
+	font-size: 10em;
+}
+
+#screen {
+	padding: 100px;
+}
+
+#controls {
+	margin-top: 50px;
+}
+
+.cursorDefault {
+	cursor: default;
+}
+
+.leftAligned {
+	text-align: left;
+}
+
+.centerAligned {
+	text-align: center;
+}
+
+.rightAligned {
+	text-align: right;
+}
+
+.footer {
+	position: fixed;
+	bottom: 20px;
+	color: darkgray;
+}
