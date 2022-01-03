@@ -68,8 +68,13 @@
 
 			<br>
 
-			<i class="volume up icon"></i><?php echo ( $language == "fr" ) ? " Montez le son ;)" : "Sound on ;)" ?>
-			
+			<?php 
+				if ( !isset( $url_components[ 'query' ] ) )
+				{
+					echo "<i class='volume up icon'></i>";
+					echo ( $language == "fr" ) ? " Montez le son ;)" : "Sound on ;)";
+				}
+			?>
 			<br><br><br>
 
 			<div class="footer cursorDefault ui container left aligned">
